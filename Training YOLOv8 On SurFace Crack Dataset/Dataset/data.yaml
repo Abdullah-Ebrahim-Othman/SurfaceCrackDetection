@@ -1,0 +1,13 @@
+train: train\\images
+val: valid\\images
+test: test\\images
+
+nc: 1
+names: ['concrete-crack']
+
+roboflow:
+  workspace: vijayalakshmi-2yshx
+  project: concrete-surface-crack-detection-using-yolov8-model
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vijayalakshmi-2yshx/concrete-surface-crack-detection-using-yolov5-model/dataset/3
